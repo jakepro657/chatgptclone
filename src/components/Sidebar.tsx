@@ -14,43 +14,43 @@ const montserrat = Montserrat({
 
 const routes = [
   {
-    label: "Dashboard",
+    label: "대시보드",
     icon: LayoutDashboard,
     href: "/dashboard",
     color: "text-sky-500",
   },
   {
-    label: "Conversation",
+    label: "대화",
     icon: MessageSquare,
     href: "/conversation",
     color: "text-violet-700",
   },
   {
-    label: "Image Generation",
+    label: "이미지 생성",
     icon: ImageIcon,
     href: "/image",
     color: "text-pink-700",
   },
   {
-    label: "Video Generation",
+    label: "비디오 생성",
     icon: VideoIcon,
     href: "/video",
     color: "text-orange-700",
   },
   {
-    label: "Music Generation",
+    label: "음악 생성",
     icon: Music,
     href: "/music",
     color: "text-emerald-500",
   },
   {
-    label: "Code Generation",
+    label: "코드 생성",
     icon: Code,
     href: "/code",
     color: "text-green-700",
   },
   {
-    label: "settings",
+    label: "설정",
     icon: Settings,
     href: "/settings",
   },
